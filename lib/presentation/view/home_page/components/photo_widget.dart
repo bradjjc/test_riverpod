@@ -12,6 +12,7 @@ class PhotoWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return photo.previewUrl != ''
         ? Container(
+
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.all(Radius.circular(16)),
         image: DecorationImage(
