@@ -21,6 +21,7 @@ dependencies:
   # 상태관리
   flutter_riverpod: 2.3.7
   riverpod_annotation: 2.1.2
+  hooks_riverpod: ^2.3.7
 
   # utils
   json_annotation: ^4.8.1

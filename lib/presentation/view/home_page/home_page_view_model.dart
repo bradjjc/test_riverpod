@@ -55,18 +55,5 @@ class HomePageViewModel extends _$HomePageViewModel {
       );
       return _photos;
     });
-
-
-    // final Result<List<Photo>> result = await repository.get(query);
-    // result.when(
-    //   success: (data) {
-    //     update((state) => state = data);
-    //     // const AsyncSnapshot.nothing();
-    //   },
-    //   error: (error) {
-    //     print('error');
-    //     state.error;
-    //   },
-    // );
   }
 }
